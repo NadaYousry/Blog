@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style/AllStyle.css">
+    <title>Home</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav>
+                <section class="siteLogo container">
+                    <a href="#">subscribe</a>
+                    <h2>Large</h2>
+                    <div class="searchAndLog">
+                        <div class="searchIcon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <i class="far fa-user"></i>
+                    </div>
+                </section>
+                <section class="navLinks container">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="#">U.S.</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Culture</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Politics</a></li>
+                        <li><a href="#">Opinion</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Health</a></li>
+                        <li><a href="#">Style</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </header>
+        
+        <section class='blogDashboard container'>
+            <table id='postTable'>
+                <tr>
+                    <th>post name</th>
+                    <th>post content</th>
+                    <th>actions</th>
+                </tr>
+                <!-- create tr>th*3 in last 2buttons -->
+                <!-- <tr>
+                    <th>post name</th>
+                    <th>post content</th>
+                    <th>
+                        <button class="delete">Delete</button>
+                        <button class="edit">Edit</button></th>
+                </tr> -->
+            </table>
+        </section>
+    </main>
+    <script src="./js/dashBoard.js"></script>
+</body>
+</html>
